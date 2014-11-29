@@ -4,6 +4,10 @@
     "keywords": ["yii2", "behavior", "mongodb", "mongodate"],
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
+    "support": {
+        "issues": "https://github.com/mongosoft/yii2-mongodate-behavior/issues?state=open",
+        "source": "https://github.com/mongosoft/yii2-mongodate-behavior"
+    },
     "authors": [
         {
             "name": "Alexander Mohorev",
