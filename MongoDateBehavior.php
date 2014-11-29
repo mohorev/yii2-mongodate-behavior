@@ -1,6 +1,6 @@
 <?php
 
-namespace mongosoft\behaviors;
+namespace mongosoft\mongodb;
 
 use yii\behaviors\TimestampBehavior;
 
@@ -10,7 +10,7 @@ use yii\behaviors\TimestampBehavior;
  * To use MongoDateBehavior, insert the following code to your ActiveRecord class:
  *
  * ```php
- * use mongosoft\behaviors\MongoDateBehavior;
+ * use mongosoft\mongodb\MongoDateBehavior;
  *
  * public function behaviors()
  * {
