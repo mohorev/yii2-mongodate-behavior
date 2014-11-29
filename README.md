@@ -24,7 +24,7 @@ or add
 "mongosoft/yii2-mongodate-behavior": "*"
 ```
 
-to the `require` section of your composer.json.
+to the `require` section of your `composer.json` file.
 
 Usage
 -----
