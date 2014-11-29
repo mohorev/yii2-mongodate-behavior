@@ -1,0 +1,22 @@
+{
+    "name": "mongosoft/yii2-mongodate-behavior",
+    "description": "MongoDate behavior for Yii 2",
+    "keywords": ["yii2", "behavior", "mongodb", "mongodate"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Alexander Mohorev",
+            "email": "dev.mohorev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mongosoft\\behaviors\\mongodb\\": ""
+        }
+    }
+}
