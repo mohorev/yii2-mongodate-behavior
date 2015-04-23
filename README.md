@@ -7,6 +7,9 @@ By default, MongoDateBehavior will fill the `created` and `updated` attributes w
 when the associated AR object is being inserted; it will fill the `updated` attribute
 with the ISODate when the AR object is being updated.
 
+[![Latest Stable Version](https://poser.pugx.org/mongosoft/yii2-mongodate-behavior/v/stable.png)](https://packagist.org/packages/mongosoft/yii2-mongodate-behavior)
+[![Total Downloads](https://poser.pugx.org/mongosoft/yii2-mongodate-behavior/downloads.png)](https://packagist.org/packages/mongosoft/yii2-mongodate-behavior)
+
 Installation
 ------------
 
