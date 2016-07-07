@@ -58,6 +58,6 @@ class MongoDateBehavior extends TimestampBehavior
      */
     protected function getValue($event)
     {
-        return $this->value !== null ? call_user_func($this->value, $event) : new UTCDateTime(microtime());
+        return $this->value !== null ? call_user_func($this->value, $event) : new UTCDateTime(round(microtime(true) * 1000));
     }
 }
